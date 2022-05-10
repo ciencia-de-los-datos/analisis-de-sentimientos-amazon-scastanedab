@@ -143,7 +143,7 @@ def pregunta_04():
         cv=5,
         scoring="accuracy",
         refit=True,
-        return_train_score=False,
+        return_train_score=True,
     )
 
     # Búsque la mejor combinación de regresores
